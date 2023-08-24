@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  height: 100vh;
+}
+.DarkMode-bg {
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-style: none;
+  padding: 20px;
+  border-radius: 7px;
+}
+.LightMode-bg {
+  text-align: center;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 7px;
+}
+.button {
+  height: 30px;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 25px;
+  }
+  .bg-container {
+    width: 350px;
+  }
+  .DarkMode-bg {
+    width: 290px;
+    margin: auto;
+  }
+  .LightMode-bg {
+    width: 290px;
+    margin: auto;
+  }
+}
